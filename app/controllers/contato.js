@@ -41,14 +41,14 @@ module.exports = function() {
 
     function atualiza(contatoAlterar) {
         contatos = contatos.map(function(contato) {
-        if(contato._id == contatoAlterar._id) {
-            contato = contatoAlterar;
-        }
-        return contato;
-    });
+            if (contato._id == contatoAlterar._id) {
+                contato = contatoAlterar;
+            }
+            return contato;
+        });
 
-    return contatoAlterar;
-  }
+        return contatoAlterar;
+    }
 
     return controller;
 };
