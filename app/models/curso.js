@@ -6,3 +6,4 @@ module.exports = function() {
     });
      return mongoose.model('Curso', schema);
 };
+ 
