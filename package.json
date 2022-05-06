@@ -15,11 +15,7 @@
         "express-load": "^1.1.16",
         "method-override": "^2.3.10",
         "mongodb": "^4.5.0",
-<<<<<<< HEAD
         "mongoose": "^6.3.2",
-=======
-        "nodejs": "^0.0.0",
->>>>>>> 361c8ac87295bbec9931527d539b5c8fad88bd68
         "uglify-js": "^3.8.0"
     },
     "engines": {
